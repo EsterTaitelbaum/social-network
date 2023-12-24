@@ -1,0 +1,24 @@
+<!-- <div class="warp">
+    <mat-card class="post-card" *ngFor="let post of (posts$ | async)">
+      <mat-card-title>{{ post.user_name }}</mat-card-title>
+      <mat-card-subtitle>{{ post.email }}</mat-card-subtitle>
+      <mat-card-content>{{ post.content }}</mat-card-content>
+      <mat-card-footer>
+        <p>{{ post.created_at }}</p>
+        <p>Tags: {{ post.tags.join(', ') }}</p>
+      </mat-card-footer>
+    </mat-card>
+  </div>
+   -->
+   <div class="warp">
+    <mat-card class="post-card" *ngFor="let post of (posts$ | async)">
+      <mat-card-title>{{ post.user_name }}</mat-card-title>
+      <mat-card-subtitle>{{ post.email }}</mat-card-subtitle>
+      <mat-card-content>{{ post.content }}</mat-card-content>
+      <mat-card-footer>
+        <p>{{ post.created_at }}</p>
+        <p>Tags: {{ post.tags.join(', ') }}</p>
+      </mat-card-footer>
+    </mat-card>
+  </div>
+  
