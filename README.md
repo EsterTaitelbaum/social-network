@@ -13,15 +13,15 @@ Prerequisites
 
 Make sure you have the following installed:
 
-    Node.js and npm (Node Package Manager)
-    Angular CLI
-    Python and Flask
+Node.js and npm 
+Angular CLI
+Python and Flask
 
 Installation
 
-    Clone the Repository:
+Clone the Repository:
 
-    bash
+
 
 git clone https://github.com/your-username/social-network.git
 cd social-network
