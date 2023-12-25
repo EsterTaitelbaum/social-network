@@ -23,7 +23,7 @@ Clone the Repository:
 
 
 
-git clone https://github.com/your-username/social-network.git
+git clone https://github.com/EsterTaitelbaum/social-network.git
 cd social-network
 
 Install Frontend Dependencies:
@@ -32,16 +32,9 @@ Install Frontend Dependencies:
 cd social-network-feed-frontend
 npm install
 
-Install Backend Dependencies:
-
-
-cd social-network-feed-backend
-pip install -r requirements.txt
-
 Run the Application:
 
 Start the backend server:
-
 
 cd social-network-feed-backend
 python main.py
@@ -61,7 +54,7 @@ social-network-feed-frontend: Contains the Angular frontend.
 
 Technologies Used
 
-    Angular
-    Angular Material
-    Flask
-    RXJS
+Angular
+Angular Material
+Flask
+RXJS
